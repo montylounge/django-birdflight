@@ -1,0 +1,38 @@
+<html>
+
+<head>
+<title>birdflight</title>
+<style>
+body {
+    line-height: 1.4;
+    color: #333940;
+    background: #f4f4f4;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+h1
+{
+  font-size: 4.2em;
+  margin-bottom: 0;
+}
+</style>
+</head>
+<body>
+
+
+<h1>django-{{ project.codename|lower|safe }}</h1>
+
+{% if project.description %}
+<p>{{ project.description }}</p>
+{% endif %}
+
+
+<p>
+<a href="http://www.google.com/search?client=safari&rls=en-us&q={{ project.codename }}+jazz&ie=UTF-8&oe=UTF-8">Google for more info.</a>
+<br/>
+<a href="http://www.allaboutjazz.com/top100.htm">Source #1</a>
+<a href="http://www.allaboutjazz.com/speak.htm">Source #2</a>
+</p>
+
+</body>
+</html>

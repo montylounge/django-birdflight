@@ -1,1 +1,12 @@
-Nothing to hear see here.
+
+h1. Quickstart
+
+* mkvirtualenv myproject
+* cd myproject
+* git clone git://github.com/montylounge/django-birdflight.git
+* cd example
+* easy_install pip
+* pip install Django==1.1
+* ./manage.py syncdb
+* ./manage.py runserver
+* ... go visit http://127.0.0.1:8000 (and refresh and enjoy)
