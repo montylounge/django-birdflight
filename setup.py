@@ -8,7 +8,7 @@ setup(
     author='Kevin Fricovsky',
     author_email='kfricovsky@gmail.com',
     license='BSD',
-    url='http://github.com/montylounge/django-mingus/tree',
+    url='http://github.com/montylounge/django-birdflight/tree/master',
     packages=[
         'birdflight',
     ],
